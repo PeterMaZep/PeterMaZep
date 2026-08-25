@@ -10,8 +10,6 @@
   <img src="https://github-stats-extended.vercel.app/api?username=PeterMaZep&show_icons=true&include_all_commits=true&title_color=ffce02&icon_color=ffce02&ring_color=ffce02" alt="Stats">
 </picture>
 
-
-
 ---------
 
 <picture>
