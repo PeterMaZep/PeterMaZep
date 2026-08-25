@@ -8,8 +8,6 @@ on:
 jobs:
   snk:
     runs-on: ubuntu-latest
-    environment: 
-      name: production
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -28,6 +26,8 @@ jobs:
         uses: lowlighter/metrics@v3.34
   github-metrics:
     runs-on: ubuntu-latest
+    environment: 
+      name: production
     permissions:
       contents: write
     steps:
