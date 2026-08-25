@@ -16,7 +16,7 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.gif?color_snake=#ffce02
-            dist/github-snake-dark.gif?palette=github-dark?color_snake=#ffce02
+            dist/github-snake-dark.gif?palette=github-dark&color_snake=#ffce02
       - name: Commit and push generated files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
