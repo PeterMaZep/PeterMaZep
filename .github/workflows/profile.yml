@@ -22,8 +22,6 @@ jobs:
         with:
           commit_message: '[AUTOMATIC] Generate snake animation'
           file_pattern: 'dist/*'
-      - name: Metrics embed
-        uses: lowlighter/metrics@v3.34
   github-metrics:
     runs-on: ubuntu-latest
     environment: 
